@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #7dd9e8;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.searchContainer {
+    display: flex;
+    position: absolute;
+    left: 350px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    
+  }
+  
+  .searchIcon {
+    padding: 0.5rem;
+  }
+  
+  .searchBox {
+    border: 0;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    flex: 1;
+  }
+  
+  .searchButton {
+    background: #538AC5;
+    border: 0;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0;
+  }
+
+  li, a{
+    font-family: 'Yomogi', cursive;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: white;
+}
+
+.searchbar {
+    display: flex;
+    background-color: rgb(196, 231, 255);
+    height: 30px;
+    border-radius: 16px;
+    position: relative;
+    padding: 0 20px;
+    min-width: 300px;
+    overflow: hidden;
+}
+
+.searchbar input{
+    background-color: transparent;
+    border:0;
+    outline:none;
+    height: 100%;
+}
+/* dman auta bracket le raixa*/
+
+.icon-wrapper {
+    position: absolute;
+    font-size:12px;
+    display: flex;
+    align-items: center;
+    right: 8px;
+    background-color: rgb(196, 231, 255);
+}
+
+
+
+.cross-icon {
+    padding: 0 8px;
+    border-right: 1px solid #2fc1da;
+}
+
+.secondheader{
+    background-color: white;
+    height: 40px;
+}
+
+.secondheader li, a{
+    font-family: 'Yomogi', cursive;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;  
+}
+
+.bottom {
+    list-style: none;
+}
+
+.bottom li{
+    display: inline-block;
+    padding: 8px 30px;
+}
+
+.bottom li:hover{
+    background-color: #7ddae870;  
+}  
+
+.bottom  li a{
+    transition: all 0.3s ease 0s;
+}
+
+.secondheaderfew{
+    position: absolute;
+    top: 116px;
+    right: 400px;
+    height: 40px;
+}
+
+.secondfew{
+    position: absolute;
+    top: 116px;
+    right: 140px;
+    height: 40px;
+}
+
+.bigc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 106vh;
+    background-color: #f5f5f5;
+}
+
+.recentsearches{
+    display: flex;
+    background-color: #538AC5;
+    position: absolute;
+    height: 80px;
+    width: 266px;
+    top: 185px;
+    left: 31px;
+    justify-content: center;
+    align-items: center;
+}
+
+.recentsearches p{
+    font-family: 'Yomogi', cursive;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+}
+
+.hove>li:hover{
+    background-color: #d6d0d0;
+    cursor: pointer;
+} 
+
+
+
+
+.search{
+    background-color:#f5f5f5;
+    position: absolute;
+    height: 218px;
+    width: 266px;
+    top: 265px;
+    left: 31px;
+}
+
+.search nav{
+    display: flex;
+    justify-content: center;
+}
+
+
+.search nav li{
+    list-style: none;
+}
+
+.recentsearche{
+    display: flex;
+    background-color: #538AC5;
+    position: absolute;
+    height: 80px;
+    width: 266px;
+    top: 316px;
+    left: 31px;
+    justify-content: center;
+    align-items: center;
+}
+
+.recentsearche p{
+    font-family: 'Yomogi', cursive;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+}
+
+.searc{
+    background-color:#f5f5f5;
+    position: absolute;
+    height: 218px;
+    width: 266px;
+    top: 401px;
+    left: 31px;
+}
+
+.hov>li:hover{
+    background-color: #d6d0d0;
+    cursor: pointer;
+} 
+
+.searc nav{
+    display: flex;
+    justify-content: center;
+}
+
+.searc nav li{
+    list-style: none;
+}
+
+.entries{
+    display: flex;
+    justify-content: flex-start;
+    background-color:#f5f5f5;
+    position: absolute;
+    top: 185px;
+    left: 358px;
+    height: 700px;
+    width: 600px;
+}
+
+.entries h1{
+    padding: 0px;
+    font-family: 'Yomogi', cursive;
+
+}
+
+.allen{
+    background-color:#dfd7d7;
+    height: 10vh;
+    width: 20vw;
+    position: absolute;
+    top: 42px;
+    left: 11px;
+    border-top-left-radius: 20px;
+}
+
+.allen p{
+    font-family: 'Yomogi', cursive;
+    position: absolute;
+    top: 1px;
+    left: 60px;
+    font-size: 34px;
+
+}
+
+.allmem{
+    position: absolute;
+    height: 35px;
+    width: 45%;
+    top: 48px;
+    left: 12px;
+    background-color: #d1c8c8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.allmem p{
+position: absolute;
+top: 7px;
+font-size: 12px;
+left: 13px;
+font-weight: bold;
+color: black;
+}
+
+
+
+.allfrens{
+    position: absolute;
+    height: 35px;
+    width: 45%;
+    top: 48px;
+    left: 149px;
+    background-color: #d1c8c8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.allfrens p{
+position: absolute;
+top: 7px;
+font-size: 12px;
+left: 13px;
+font-weight: bold;
+}
+
+
+.subs{
+    background-color:#dfd7d7;
+height: 10vh;
+width: 20vw;
+position: absolute;
+top: 42px;
+left: 305px;
+border-top-right-radius: 20px;
+
+}
+
+
+.subs p{
+    font-family: 'Yomogi', cursive;
+    position: absolute;
+    top: 5px;
+    left: 109px;
+    font-weight: bold;
+
+}
+
+.newen{
+    position: absolute;
+    height: 35px;
+    width: 45%;
+    top: 48px;
+    left: 12px;
+    background-color: #d1c8c8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.subs > div:hover, .allen > div:hover {
+    background: #fff;
+    cursor: pointer;
+}
+
+.allen > div:hover p {
+    color: #000;
+}
+
+.newen p{
+    position: absolute;
+    top: 7px;
+    font-size: 12px;
+    left: 13px;
+    font-weight: bold;
+    }
+
+    .newcom{
+        position: absolute;
+        height: 35px;
+        width: 45%;
+        top: 48px;
+        left: 149px;
+        padding: 8px 30px;
+        background-color: #d1c8c8;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+
+    .newcom p{
+        position: absolute;
+        top: 7px;
+        font-size: 12px;
+        left: 13px;
+        font-weight: bold;
+        }
+
+    .news{
+        position: absolute;
+        background-color: white;
+        height: 450px;
+        top: 128px;
+        left: 23px;
+        width: 561px;
+       
+
+    }
+
+    .b1{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #f5f5f5;
+        width: 561px;
+        height: 20vh;
+        padding-bottom: 10%;
+    }
+
+    .ima{
+        position: absolute;
+        background-color: yellow;
+        width: 100px;
+        height: 18vh;
+        border-radius: 30%;
+        top: 6px;
+        left: 9px;
+    }
+
+    .ima img{
+        width:100%;
+        height: 100%;
+        border-radius: 30%;
+    }
+    
+    .firstline{
+        position: absolute;
+        height: 24px;
+        width: 420px;
+        background-color: #f5f5f5;
+        top: 13px;
+        left: 117px;
+    }
+
+    .firstline p{
+        padding: 2px 10px;
+        font-family: 'Yomogi', cursive;
+        position: absolute;
+        font-size: 10px; 
+    }
+
+    .by{
+        position: absolute;
+        height: 24px;
+        width: 420px;
+        background-color: #f5f5f5;
+        top: 31px;
+        left: 117px;
+    }
+
+    .by p{
+        padding: 2px 10px;
+        font-family: 'Yomogi', cursive;
+        position: absolute;
+        font-size: 10px; 
+    }
+
+    .from{
+        position: absolute;
+        height: 24px;
+        width: 420px;
+        background-color: #f5f5f5;
+        top: 55px;
+        left: 117px;
+    }
+
+    .from p{
+        padding: 2px 10px;
+        font-family: 'Yomogi', cursive;
+        position: absolute;
+        font-size: 10px; 
+    }
+
+    .b2{
+        position: absolute;
+        top: 167px; 
+        background-color: #f5f5f5;  
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 561px;
+        height: 20vh;
+    }
+
+    .b3{
+        position: absolute;
+        top: 335px;  
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #f5f5f5;
+        width: 561px;
+        height: 20vh;
+    }
+
+    .videotut{
+        position: absolute;
+        top: -180px;
+        left: 660px;
+    }
+
+   footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #727272;
+    height: 40px;
+   }
+
+   li, a{
+    font-family: 'Yomogi', cursive;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.jojo{
+    list-style: none;
+}
+
+.jojo li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.jojo li a{
+    transition: all 0.3s ease 0s;
+}
+
+.jojo li a:hover{
+    color: white;
+}
+
+
+    
+
+    
+
