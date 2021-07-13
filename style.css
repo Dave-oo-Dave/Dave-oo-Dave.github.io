@@ -44,11 +44,10 @@ header{
 
 .outermost{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
     height: 40vh;
     width: 100%;
-    background-color: blanchedalmond;
     margin-left: 10px;
 }
 
@@ -58,7 +57,6 @@ header{
     align-items: center;
     height: 90%;
     width: 20%;
-    background-color:grey;
     border-radius: 20%;
     margin: 10px;
     
@@ -73,7 +71,7 @@ header{
     display: flex;
     height: 90%;
     width: 25%;
-    background-color: yellow;
+   
     padding: 30px;
     border-radius: 20%;
 }
@@ -124,7 +122,7 @@ header{
    align-items: center;
     width: 30%;
     height: 90%;
-    background-color: navy;
+   
     border-radius: 20%;
     font-family: 'Righteous', cursive;
     margin: 10px;
