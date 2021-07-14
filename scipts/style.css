@@ -1,0 +1,139 @@
+body{
+    background-color: black;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.logo{
+    height: 90px;
+    width: 90px;
+    
+}
+.logo img{
+    height: 100%;  
+}
+
+.linkharu{
+    height: 90px;
+    list-style: none;
+    color: white;
+    width: 100%;
+    background-color:black;
+    font-family: 'Righteous', cursive;
+   font-size: 30px;
+}
+
+.linkharu li {
+    display: inline-block;
+    padding: 36px;
+}
+
+.linkharu :hover{
+    background-color: rgba(165, 146, 146, 0.247);
+    color: burlywood;
+    cursor: pointer;
+}
+.outerbox{
+    background-color: red;
+    height: 80vh;
+}
+
+.form_wrapper{
+    background-color: beige;
+    height: 93vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bgimage{
+    
+}
+
+.form{
+    background-color: rgba(0, 0, 0, 0.123);
+    width: 40%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.one{
+    font-size: 16px;
+}
+
+.two{
+    margin: 10px 0;
+}
+
+.font_big{
+    font-size: 32px;
+}
+
+.content{
+    border: 0;
+    border-radius: 8px;
+    font-size: 20px;
+    outline: none;
+    padding: 16px;
+    width: calc(100% - 32px);
+}
+
+.half_content{
+    width: calc(48% - 32px);
+}
+
+.form__label{
+    color: blue;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.form__control {
+    padding: 8px;
+}
+
+
+.form__radio {
+    font-size: 20px;
+}
+
+.form__radio-group {
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.form__description {
+    color: blue;
+    font-size: 12px;
+    margin: 16px 0;
+    width: calc(70%);
+}
+
+.facebook-button {
+    border: 0;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    padding: 16px;
+    text-align: center;
+    width: 240px;
+}
+
+.facebook-button:hover {
+    cursor: pointer;
+    outline: groove;
+}
+
+.facebook-button--theme--primary {
+    background-color: #5e974a;
+    color: #fff;
+}
+
+.facebook-button--theme--primary:hover {
+outline-color: #0f0;
+}

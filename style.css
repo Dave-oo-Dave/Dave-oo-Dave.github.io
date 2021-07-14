@@ -72,10 +72,8 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     height: 90%;
     width: 25%;
-    
     padding: 30px;
     margin: 2px;
     border-radius: 20%;
@@ -171,7 +169,7 @@ header{
   }
 
 .mySlides .img{
-    height: 88%;
+    height: 85%;
     width: 100%;
     border-radius: 10%;
     padding-top: 20px;
@@ -262,4 +260,14 @@ header{
     to {opacity: 1}
   }
 
+.signup_codes{
+  height: 20vh;
+  background-color: bisque;
+  display: flex;
+  justify-content: flex-start;
+}
 
+.sign{
+  width: 50%;
+  background-color: #bb0000;
+}
