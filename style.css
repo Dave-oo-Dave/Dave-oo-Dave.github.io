@@ -270,4 +270,28 @@ header{
 .sign{
   width: 50%;
   background-color: #bb0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ram{
+  text-decoration: none;
+  font-family: 'Righteous', cursive; 
+}
+
+.sign :hover{
+ color: white;
+}
+
+.mycodess{
+  width: 50%;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mycodess :hover{
+  color: white;
 }
