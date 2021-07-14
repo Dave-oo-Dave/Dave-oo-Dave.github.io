@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.logo{
+    height: 90px;
+    width: 90px;
+    
+}
+.logo img{
+    height: 100%;  
+}
+
+.linkharu{
+    height: 90px;
+    list-style: none;
+    color: white;
+    width: 100%;
+    background-color:black;
+    font-family: 'Righteous', cursive;
+   font-size: 30px;
+}
+
+.linkharu li {
+    display: inline-block;
+    padding: 25px;
+}
+
+.linkharu :hover{
+    background-color: rgba(165, 146, 146, 0.247);
+    color: burlywood;
+    cursor: pointer;
+}
+
+.bigpicture{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 50vh;
+}
+
+.support{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 50%;
+     height: 90%;
+    background-color: black;
+     border-radius: 20%;
+     font-family: 'Righteous', cursive;
+     margin: 10px;
+     padding: 0px;
+     color: white;
+ }
+ 
+ .support .dewanand{
+     width: 0ch;
+     overflow: hidden;
+     white-space: nowrap;
+     animation: text 6s steps(16) infinite alternate;
+     font-size:80px;
+     border-right: 3px solid;
+     
+ }
+ 
+ @keyframes text{
+     0%{
+         width: 0ch;
+     }
+     50%{
+         width: 17ch;
+     }
+ }
+
+ .nextbigpicture{
+     height: 50vh;
+     background-color: black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .showoff{
+     height: 100vh;
+     background-color: blue;
+     display: flex;
+     justify-content: flex-start;
+ }
+
+ .serialno{
+    height:100vh;
+    width:12vw;
+    background-color: black;
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .projects{
+     height:100vh;
+     width:50vw;
+     background-color: black;
+     display:flex;
+     justify-content: flex-start;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .tauko{
+     height:15%;
+     background-color: black;
+     font-family: 'Righteous', cursive;
+     color: white;
+     font-size: 32px;
+     display:flex;
+     align-items:center;
+     margin-left: 30px;
+ }
+
+ .serialno h2:hover{
+     color: bisque;
+ }
+
+ .tauko h2:hover{
+    color: bisque;
+ }
+
+ .objects_projects{
+    height:15%;
+    background-color: black;
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 24px;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+ }
+
+ .objects_projects a{
+     text-decoration: none;
+     color: white;
+     font-size: 24px;
+ }
+
+ .objects_projects a:hover,p:hover,h3:hover{
+     color: bisque;
+ }
+
+ .demos{
+    height:100vh;
+    width:50vw;
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+ }

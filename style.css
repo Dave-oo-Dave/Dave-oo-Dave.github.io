@@ -269,7 +269,7 @@ header{
 
 .sign{
   width: 50%;
-  background-color: #bb0000;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -286,7 +286,7 @@ header{
 
 .mycodess{
   width: 50%;
-  background-color: yellow;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
