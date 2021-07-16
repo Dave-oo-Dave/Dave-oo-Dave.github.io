@@ -84,17 +84,26 @@ nav .mainMenu .closeMenu , .icons i {
 }
 
 .inner_container{
-    height: 200px;
+    height: 20rem;
     background-color: green;
-    flex: 1 1 200px;
-    margin: 20px;
+    flex: 1 1 20rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transition: all 0.2 linear;
+}
+
+.img_content{
+    height: 20rem;
+    flex: 1 1 20rem;
 }
 
 .outer_container :nth-child(odd){
     background-color: bisque;
-    height: 200px;
-    flex: 1 1 200px;
-    margin: 20px;
+    height: 20rem;
+    flex: 1 1 20rem;
+    margin: 1 rem;
 }
 
 
