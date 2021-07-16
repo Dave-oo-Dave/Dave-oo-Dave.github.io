@@ -92,6 +92,9 @@ nav .mainMenu .closeMenu , .icons i {
 
 .outer_container :nth-child(odd){
     background-color: bisque;
+    height: 200px;
+    flex: 1 1 200px;
+    margin: 20px;
 }
 
 
