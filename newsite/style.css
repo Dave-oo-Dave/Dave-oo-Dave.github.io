@@ -75,7 +75,7 @@ nav .mainMenu .closeMenu , .icons i {
 
 .outer_container{
    background-color: aqua;
-   height: 100vh;
+   height: 100rem;
    width: 100vw;
    display: flex;
    justify-content: space-around;
