@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 html{
     font-size: 16px;
 }
@@ -17,7 +18,7 @@ header{
     justify-content: space-evenly;
     flex-wrap: wrap;
     transition: all 0.2 linear;
-    background-color: blue;
+    background-color: black;
 }
 nav {
     background: #000;
@@ -38,10 +39,11 @@ nav .mainMenu li a {
     text-transform: uppercase;
     color: #fff;
     font-size: 1.5rem;
+    font-family: 'Righteous', cursive; 
 }
 
 nav .mainMenu li a:hover {
-    background: rgb(255,94,0);
+    background:rgba(89, 85, 85, 0.564);
 }
 
 nav .openMenu {
@@ -64,7 +66,7 @@ nav .mainMenu .closeMenu , .icons i {
 
 .logo{
     height: 3.8rem;
-    background-color: red;
+    background-color: black;
     flex: 1 1 3.8rem;
     margin-left: 10rem;
 }
@@ -74,8 +76,8 @@ nav .mainMenu .closeMenu , .icons i {
 }
 
 .outer_container{
-   background-color: aqua;
-   height: 100rem;
+   background-color: black;
+   height: 70rem;
    width: 100vw;
    display: flex;
    justify-content: space-around;
@@ -85,7 +87,7 @@ nav .mainMenu .closeMenu , .icons i {
 
 .inner_container{
     height: 20rem;
-    background-color: green;
+    background-color: black;
     flex: 1 1 20rem;
     margin: 1rem;
     display: flex;
@@ -97,6 +99,7 @@ nav .mainMenu .closeMenu , .icons i {
 .img_content{
     height: 20rem;
     flex: 1 1 20rem;
+    border-radius: 2rem;
 }
 
 .outer_container :nth-child(odd){
@@ -110,7 +113,9 @@ nav .mainMenu .closeMenu , .icons i {
     white-space: nowrap;
     animation: text 6s steps(16) infinite alternate;
     font-size:3rem;
-    border-right: 0.5rem solid;
+    border-right: 0.3rem solid;
+    border-style:groove ;
+    color: white;
     
 }
 
@@ -158,6 +163,150 @@ nav .mainMenu .closeMenu , .icons i {
     color: white;
     border-radius: 20%;
   }
+
+  .slideshow-container{
+    display: flex;
+    justify-content: flex-start;
+    width: 100vw;
+    height: 30vh;
+    position: relative;
+    margin: auto;
+    background-color:black;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+  }
+
+.mySlides .img{
+    height: 75%;
+    width: 100%;
+    border-radius: 10%;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgb(112, 107, 107);
+  }
+  
+  /* Caption text */
+  .text {
+    color: white;
+    font-size: 24px;
+    padding: 0px 12px;
+    position: absolute;
+    bottom: 4px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: -5px;
+    font-family: 'Righteous', cursive;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color:rgba(53, 47, 47, 0.24);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: black;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  .signup_codes{
+    height: 40vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .sign{
+    width: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ram{
+    text-decoration: none;
+    font-family: 'Righteous', cursive; 
+  }
+  
+  .sign :hover{
+   color: white;
+  }
+  
+  .mycodess{
+    width: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mycodess :hover{
+    color: white;
+  }
+
   
  
 
@@ -191,7 +340,7 @@ nav .mainMenu .closeMenu , .icons i {
 
     nav .mainMenu li a:hover {
         background: none;
-        color: rgb(255, 123, 0);
+        background-color: black;
         font-size: 1.6rem;
     }
 
@@ -202,7 +351,7 @@ nav .mainMenu .closeMenu , .icons i {
 
     .logo{
         height: 4.3rem;
-        background-color: red;
+        background-color: black;
         flex: 1 1 4.3rem;
     }
 }
