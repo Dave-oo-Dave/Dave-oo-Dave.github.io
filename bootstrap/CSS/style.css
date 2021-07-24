@@ -138,6 +138,13 @@
 }
 
 @media(max-width: 479px){
+    .bgimg{
+        background-image: url('../Images/bg.jpg');
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        width: 100%;
+        height: 650px;
+    }
     .headerset h2{
         font-size: 22px;
     }
@@ -148,7 +155,7 @@
     }
 
     .ourservices{
-        height: 1300px;
+        height: 1700px;
     }
 
     .portfolio{
